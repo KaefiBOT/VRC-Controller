@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KaefiBOT VCC</title>
+  <title>VCC Listing</title>
   <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="./favicon.ico">
@@ -11,11 +11,15 @@
 <body>
   <div class="col align-items-center content">
     <div id="listingInfo" class="col mb-4 w-100 align-items-center">
-      <div class="bannerImage" style="background-image: url({{ listingInfo.BannerImageUrl }})"></div>
+      {{~ if listingInfo.BannerImage; ~}}
+        <div class="bannerImage" style="background-image: url({{ listingInfo.BannerImageUrl }})"></div>
+      {{~ end; ~}}
       <h1>
-        KaefiBOT Controller
+        {{~ listingInfo.Name ~}}
       </h1>
-      <div class="caption1 mb-2">Packages for KaefiBOT</div>
+      {{~ if listingInfo.Description; ~}}
+        <div class="caption1 mb-2">{{ listingInfo.Description }}</div>
+      {{~ end; ~}}
       <div class="col align-items-center">
         {{~ if listingInfo.Author.Email; ~}}
         <fluent-tooltip id="publishedByTooltip" anchor="publishedByText">
