@@ -1,1 +1,1 @@
-# dev.woweepaw.kaefibot by eiffe
+# Read Packages/KaefiBOT Controller/Runtime/README.txt

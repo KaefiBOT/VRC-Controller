@@ -1,14 +1,14 @@
 {
   "name": "dev.kaefibot.kaefibot-controller",
   "displayName": "KaefiBOT Controller",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "OSC Controller for KaefiBOT",
   "dependencies": {
     "com.vrcfury.vrcfury": "1.1265.0"
   },
   "gitDependencies": {},
   "vpmDependencies": {
-    "com.vrchat.avatars": "3.9.1-beta.1"
+    "com.vrchat.avatars": "3.9.0"
   },
   "author": {
     "name": "WoweePaw",
