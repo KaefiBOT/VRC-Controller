@@ -109,9 +109,7 @@
       "version": "file:dev.woweepaw.kaefibot",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {
-        "com.vrcfury.vrcfury": "1.1265.0"
-      }
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
