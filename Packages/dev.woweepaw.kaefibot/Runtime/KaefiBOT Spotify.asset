@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: KaefiBOT Spotify
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: f67a944887cca89469429e4221eef533, type: 2}
+  controls:
+  - name: Play/Pause
+    icon: {fileID: 2800000, guid: 7cba480f02a9659449068c90b11fcc09, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT
+    value: 0.0041
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Next
+    icon: {fileID: 2800000, guid: f27e754905f676246a85b821aae3fad0, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT
+    value: 0.0042
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: KaefiBOT Chat Options
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: f67a944887cca89469429e4221eef533, type: 2}
+  controls:
+  - name: <color=orange>Slow Mode</color>
+    icon: {fileID: 2800000, guid: f73d99c480e8c644f8af48dc8c50e08f, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT
+    value: 0.0033
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <color=#ca7fff>Subscriber Only</color>
+    icon: {fileID: 2800000, guid: 21648d97de8aa9545b24f2444815705c, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT
+    value: 0.0032
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <color=#00bfff>Follower Only</color>
+    icon: {fileID: 2800000, guid: 74b2ceb5ed9b4f74b83495eb5c60e1a7, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT
+    value: 0.0031
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Read Chatmessages
+    icon: {fileID: 2800000, guid: 792842fd5ccd6ea4996e0bc456ea923a, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT
+    value: 0.0034
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Swoosh (On/Off)
+    icon: {fileID: 2800000, guid: 555c6cfccfaf7a044ada12dca21687cc, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT
+    value: 0.0035
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

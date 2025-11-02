@@ -1,0 +1,21 @@
+{
+  "name": "dev.kaefibot.kaefibot-controller",
+  "displayName": "dev.woweepaw.kaefibot",
+  "version": "0.0.1",
+  "description": "Describe this Package",
+  "dependencies": {
+    "com.vrcfury.vrcfury": "1.1265.0"
+  },
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.avatars": "3.9.1-beta.1"
+  },
+  "author": {
+    "name": "WoweePaw",
+    "email": "895448+WoweePaw@users.noreply.github.com",
+    "url": "https://www.twitch.tv/woweepaw"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "E:\\Unity\\Comissions\\KaefiBOT\\VRC-Controller\\Packages\\dev.woweepaw.kaefibot"
+}
