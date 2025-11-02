@@ -1,8 +1,8 @@
 {
   "name": "dev.kaefibot.kaefibot-controller",
-  "displayName": "dev.woweepaw.kaefibot",
-  "version": "0.0.1",
-  "description": "Describe this Package",
+  "displayName": "KaefiBOT Controller",
+  "version": "0.0.2",
+  "description": "OSC Controller for KaefiBOT",
   "dependencies": {
     "com.vrcfury.vrcfury": "1.1265.0"
   },
@@ -17,5 +17,6 @@
   },
   "legacyFolders": {},
   "legacyFiles": {},
-  "localPath": "E:\\Unity\\Comissions\\KaefiBOT\\VRC-Controller\\Packages\\dev.woweepaw.kaefibot"
+  "localPath": "E:\\Unity\\Comissions\\KaefiBOT\\VRC-Controller\\Packages\\dev.woweepaw.kaefibot",
+  "unity": "2022.3"
 }
