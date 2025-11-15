@@ -44,6 +44,16 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: b265a603d21da4a45964b7fded1d40fa, type: 2}
     subParameters: []
     labels: []
+  - name: Camera
+    icon: {fileID: 2800000, guid: 363b91b3a26d1fa4aa54cf2f31522803, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cea6d8288f8cadb4da654afab0d52aad, type: 2}
+    subParameters: []
+    labels: []
   - name: <color=red><b><i>!!! CLEAR CHAT !!!</i></b></color>
     icon: {fileID: 2800000, guid: f5fe22b27bcb5654395f3e60c44ff190, type: 3}
     type: 101

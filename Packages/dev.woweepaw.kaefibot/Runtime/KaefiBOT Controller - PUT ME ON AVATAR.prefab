@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1265.0
+  vrcfuryVersion: 1.1267.0
   somethingIsBroken: 0
   config:
     features: []
@@ -66,7 +66,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: b6bd9fb00606285448103ae612b5b516|Assets/WoweePaw/KaefiBOT/KaefiBOT
+            id: b6bd9fb00606285448103ae612b5b516|Assets/WoweePaw/KaefiBOT Controller/KaefiBOT
               Menu.asset
             objRef: {fileID: 11400000, guid: b6bd9fb00606285448103ae612b5b516, type: 2}
           prefix: <color=#00bfff>- KaefiBOT -
@@ -75,12 +75,14 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: f67a944887cca89469429e4221eef533|Assets/WoweePaw/KaefiBOT/KaefiBOT
+            id: f67a944887cca89469429e4221eef533|Assets/WoweePaw/KaefiBOT Controller/KaefiBOT
               Params.asset
             objRef: {fileID: 11400000, guid: f67a944887cca89469429e4221eef533, type: 2}
         smoothedPrms: []
         globalParams:
         - KaefiBOT
+        - KaefiBOT/ClearCams
+        - KaefiBOT/SetCam
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
@@ -126,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1265.0
+  vrcfuryVersion: 1.1267.0
   somethingIsBroken: 0
   config:
     features: []
@@ -144,5 +146,5 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 0e67714967c965842bb4d2ed22d61b89|Assets/WoweePaw/KaefiBOT/KaefiBOT-Icon_derp.png
+          id: 0e67714967c965842bb4d2ed22d61b89|Assets/WoweePaw/KaefiBOT Controller/KaefiBOT-Icon_derp.png
           objRef: {fileID: 2800000, guid: 0e67714967c965842bb4d2ed22d61b89, type: 3}

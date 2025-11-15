@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: KaefiBOT Cam Menu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: f67a944887cca89469429e4221eef533, type: 2}
+  controls:
+  - name: "<color=#55AAFF><b>INFO:</b></color> Move your cam before saving!  \r\n<size=85%>Make
+      sure the Camera Control Window is open. This is a VRChat limitation!</size>"
+    icon: {fileID: 2800000, guid: 4e05e9798c2f97e4a804acf60074b76e, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 595248baf7998df4cb34067c8a3dabfd, type: 2}
+    subParameters: []
+    labels: []
+  - name: <color=red><i>Clear Cams</i></color>
+    icon: {fileID: 2800000, guid: f5fe22b27bcb5654395f3e60c44ff190, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT/ClearCams
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Set/Load</b>
+    icon: {fileID: 2800000, guid: 363b91b3a26d1fa4aa54cf2f31522803, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 595248baf7998df4cb34067c8a3dabfd, type: 2}
+    subParameters: []
+    labels: []
