@@ -14,17 +14,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEmpty: 0
   parameters:
-  - name: KaefiBOT
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 0
   - name: KaefiBOT/ClearCams
     valueType: 0
     saved: 0
     defaultValue: 0
     networkSynced: 0
   - name: KaefiBOT/SetCam
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Chat/Clear
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Chat/Options/FollowMode
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Chat/Options/SubMode
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Chat/Options/SlowMode
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Chat/Options/EnableTTS
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Chat/Options/ToggleSwoosh
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Interactive/Create
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Interactive/Remove
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Spotify/Pause
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Spotify/Skip
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: KaefiBOT/Spotify/Save
     valueType: 0
     saved: 0
     defaultValue: 0

@@ -18,8 +18,8 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: 7cba480f02a9659449068c90b11fcc09, type: 3}
     type: 101
     parameter:
-      name: KaefiBOT
-    value: 0.0041
+      name: KaefiBOT/Spotify/Pause
+    value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -28,8 +28,18 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: f27e754905f676246a85b821aae3fad0, type: 3}
     type: 101
     parameter:
-      name: KaefiBOT
-    value: 0.0042
+      name: KaefiBOT/Spotify/Skip
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Save Song <size=85%>Adds the current Song to your Playlist</size>
+    icon: {fileID: 2800000, guid: c1d6dcc92c2c7834a849dadb9b9bbe6e, type: 3}
+    type: 101
+    parameter:
+      name: KaefiBOT/Spotify/Save
+    value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []

@@ -18,8 +18,8 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: 5f47da1edc1cf7c4794cddb74b050335, type: 3}
     type: 101
     parameter:
-      name: KaefiBOT
-    value: 0.0023
+      name: KaefiBOT/Interactive/Remove
+    value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -38,8 +38,8 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: 347041f1d602a994193500138fdf55c3, type: 3}
     type: 101
     parameter:
-      name: KaefiBOT
-    value: 0.0021
+      name: KaefiBOT/Interactive/Create
+    value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
